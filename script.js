@@ -169,6 +169,7 @@ var carousels = [];
         var a = document.createElement("a");
         a.className = "repo"; a.href = card.dataset.verify;
         a.textContent = "Verify this certificate";
+        a.target = "_blank"; a.rel = "noopener noreferrer";
         box.appendChild(a);
       }
       open(box, card);
