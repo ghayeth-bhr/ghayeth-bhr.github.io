@@ -22,3 +22,38 @@
     }, 250 + i * 450);
   });
 })();
+
+// Project gallery: a card opens its details in a dialog.
+// Without JS (or without <dialog> support) the card links to the repo.
+(function () {
+  var dialog = document.getElementById("project-dialog");
+  var store = document.getElementById("project-details");
+  if (!dialog || typeof dialog.showModal !== "function") return;
+  var content = dialog.querySelector(".pd-content");
+  var gallery = document.querySelector(".gallery");
+  var opener = null;
+
+  document.querySelectorAll(".gcard").forEach(function (card) {
+    card.addEventListener("click", function (e) {
+      var src = store.querySelector('[data-project="' + card.dataset.project + '"]');
+      if (!src) return;
+      e.preventDefault();
+      opener = card;
+      content.innerHTML = "";
+      var copy = src.cloneNode(true);
+      copy.querySelector(".pd-title").id = "pd-heading";
+      content.appendChild(copy);
+      gallery.classList.add("paused");
+      dialog.showModal();
+      dialog.scrollTop = 0;
+    });
+  });
+
+  dialog.querySelector(".pd-close").addEventListener("click", function () { dialog.close(); });
+  // A click on the backdrop lands on the dialog element itself.
+  dialog.addEventListener("click", function (e) { if (e.target === dialog) dialog.close(); });
+  dialog.addEventListener("close", function () {
+    gallery.classList.remove("paused");
+    if (opener && opener.tabIndex !== -1) opener.focus();
+  });
+})();
