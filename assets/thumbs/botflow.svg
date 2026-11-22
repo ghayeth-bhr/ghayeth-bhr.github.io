@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" font-family="ui-monospace,Consolas,monospace"><defs><pattern id="g" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#223441" stroke-width="1"/></pattern></defs><rect width="320" height="200" fill="#16212b"/><rect width="320" height="200" fill="url(#g)"/>
+<rect x="18" y="56" width="92" height="52" rx="8" fill="#e4eaee" opacity=".95"/><path d="M34 108l-6 14 18-14z" fill="#e4eaee" opacity=".95"/>
+<rect x="28" y="68" width="60" height="6" rx="3" fill="#16212b" opacity=".55"/><rect x="28" y="80" width="72" height="6" rx="3" fill="#16212b" opacity=".55"/><rect x="28" y="92" width="40" height="6" rx="3" fill="#c81e66"/>
+<path d="M118 82h20" stroke="#e4eaee" stroke-width="2" stroke-dasharray="4 4"/><path d="M136 77l6 5-6 5" fill="none" stroke="#e4eaee" stroke-width="2"/>
+<g>
+<rect x="150" y="40" width="44" height="34" rx="3" fill="#223441"/><rect x="200" y="40" width="44" height="34" rx="3" fill="#223441"/>
+<rect x="150" y="80" width="44" height="34" rx="3" fill="#223441"/><rect x="200" y="80" width="44" height="34" rx="3" fill="#223441"/>
+<rect x="150" y="120" width="44" height="34" rx="3" fill="#223441"/><rect x="200" y="120" width="44" height="34" rx="3" fill="#223441"/>
+<path d="M160 66c2-10 10-16 18-12s8 12 4 14z" fill="#2fc4c4" opacity=".75"/><rect x="157" y="50" width="28" height="20" fill="none" stroke="#ff5c9d" stroke-width="1.5"/>
+<path d="M210 106c0-9 8-15 16-12s9 10 6 12z" fill="#2fc4c4" opacity=".75"/><rect x="207" y="90" width="29" height="19" fill="none" stroke="#ff5c9d" stroke-width="1.5"/>
+<path d="M162 146c4-12 16-14 22-6l-2 6z" fill="#2fc4c4" opacity=".75"/><rect x="159" y="130" width="27" height="19" fill="none" stroke="#ff5c9d" stroke-width="1.5"/>
+<circle cx="238" cy="46" r="7" fill="#ffc23a"/><path d="M234.5 46l2.5 2.5 4.5-5" fill="none" stroke="#16212b" stroke-width="2"/>
+<circle cx="188" cy="86" r="7" fill="#ffc23a"/><path d="M184.5 86l2.5 2.5 4.5-5" fill="none" stroke="#16212b" stroke-width="2"/>
+</g>
+<path d="M252 97h14" stroke="#e4eaee" stroke-width="2" stroke-dasharray="4 4"/><path d="M264 92l6 5-6 5" fill="none" stroke="#e4eaee" stroke-width="2"/>
+<g fill="none" stroke-width="2"><path d="M276 120l14-7 14 7-14 7z" stroke="#ffc23a" fill="#16212b"/><path d="M276 108l14-7 14 7-14 7z" stroke="#2fc4c4" fill="#16212b"/><path d="M276 96l14-7 14 7-14 7z" stroke="#ff5c9d" fill="#16212b"/></g>
+<text x="276" y="146" fill="#9aa9b4" font-size="9">COCO</text>
+</svg>

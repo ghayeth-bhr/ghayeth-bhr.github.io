@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" font-family="ui-monospace,Consolas,monospace"><defs><pattern id="g" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#223441" stroke-width="1"/></pattern></defs><rect width="320" height="200" fill="#16212b"/><rect width="320" height="200" fill="url(#g)"/>
+<g>
+<rect x="60" y="88" width="200" height="24" rx="3" fill="#223441" stroke="#ffc23a" stroke-width="1.5"/>
+<g fill="#ffc23a"><rect x="66" y="94" width="18" height="12"/><rect x="88" y="94" width="18" height="12"/><rect x="110" y="94" width="18" height="12"/><rect x="132" y="94" width="18" height="12" opacity=".7"/><rect x="154" y="94" width="18" height="12" opacity=".5"/><rect x="176" y="94" width="18" height="12" opacity=".3"/></g>
+</g>
+<g fill="#16212b" stroke-width="2"><rect x="24" y="22" width="72" height="40" rx="6" stroke="#2fc4c4"/><rect x="224" y="22" width="72" height="40" rx="6" stroke="#2fc4c4"/><rect x="24" y="138" width="72" height="40" rx="6" stroke="#ff5c9d"/><rect x="224" y="138" width="72" height="40" rx="6" stroke="#2fc4c4"/></g>
+<g font-size="10" fill="#e4eaee"><text x="38" y="46">orders</text><text x="234" y="46">payment</text><text x="34" y="162">inventory</text><text x="234" y="162">shipping</text></g>
+<g fill="none" stroke="#e4eaee" stroke-width="1.5" opacity=".7"><path d="M60 62v26M260 62v26M60 112v26M260 112v26"/></g>
+<g fill="#e4eaee"><path d="M56 84l4 6 4-6zM256 66l4-6 4 6zM56 134l4 6 4-6zM256 116l4-6 4 6z"/></g>
+<circle cx="296" cy="22" r="8" fill="#ffc23a"/><path d="M292 22l3 3 5-6" fill="none" stroke="#16212b" stroke-width="2"/>
+<path d="M140 132q20 30 50 34" fill="none" stroke="#ff5c9d" stroke-width="2" stroke-dasharray="4 4"/><text x="126" y="182" font-size="9" fill="#ff5c9d">saga: compensate</text>
+</svg>
