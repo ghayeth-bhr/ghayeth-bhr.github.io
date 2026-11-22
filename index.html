@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ghayeth Ben Haj Rhouma</title>
+  <meta name="description" content="Computer vision and AI engineer: detection, tracking and edge deployment on NVIDIA Jetson. Seeking a final-year (PFE) internship, Jan to Jul 2027.">
+  <meta property="og:title" content="Ghayeth Ben Haj Rhouma, computer vision engineer">
+  <meta property="og:description" content="Production computer vision from annotation to NVIDIA Jetson inference.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ghayeth-bhr.github.io/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='4' y='6' width='24' height='20' fill='none' stroke='%23d1246f' stroke-width='3'/><rect x='4' y='2' width='14' height='6' fill='%23d1246f'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>if (!matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#top">Ghayeth BHR</a>
+      <nav aria-label="Sections">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero: the name and focus areas are "detected" like objects in a frame -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <h1 class="hero-name">
+          <span class="det det-a" data-label="engineer" data-conf="0.97" data-shown="0.97">Ghayeth Ben&nbsp;Haj&nbsp;Rhouma</span>
+        </h1>
+        <p class="hero-role">
+          I build <span class="det det-b" data-label="task" data-conf="0.94" data-shown="0.94">computer vision</span>
+          that runs on real cameras, from the first annotation to
+          <span class="det det-c" data-label="target" data-conf="0.91" data-shown="0.91">edge inference</span> on NVIDIA&nbsp;Jetson.
+        </p>
+        <p class="hero-status">
+          Final-year engineering student at ENISo, Tunisia. Looking for a 4 to 6 month
+          final-year internship (PFE) in computer vision, edge AI or perception R&amp;D,
+          January to July 2027.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:ghayeth.benhajrhouma@eniso.u-sousse.tn">Email me</a>
+          <a class="btn" href="https://github.com/ghayeth-bhr">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/ben-haj-rhouma-ghayeth">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" aria-label="Selected results">
+      <div class="wrap results">
+        <figure class="result">
+          <span class="result-num">11+</span>
+          <figcaption>vision use cases scoped and delivered on a live video-analytics platform</figcaption>
+        </figure>
+        <figure class="result">
+          <span class="result-num">93%</span>
+          <figcaption>event precision on a drive-through payment-window alert <span class="n">n=60 passes</span></figcaption>
+        </figure>
+        <figure class="result">
+          <span class="result-num">3.2×</span>
+          <figcaption>faster CUDA inference on football broadcast video, 18 to 58 FPS</figcaption>
+        </figure>
+        <figure class="result">
+          <span class="result-num">360+</span>
+          <figcaption>automated tests behind BotFlow, run in GitHub Actions CI</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-h">
+      <div class="wrap">
+        <h2 id="experience-h">Experience</h2>
+
+        <ol class="timeline">
+          <li class="job">
+            <div class="job-when">Jul to Sep 2026</div>
+            <div class="job-body">
+              <h3>AI Engineer Intern, Computer Vision</h3>
+              <p class="job-where">1MoreThing (1MT), Tunis. Absar AI video supervision platform for a multi-site coffee chain in Saudi Arabia.</p>
+              <ul>
+                <li>Turned the client's operating procedures into 11+ vision use cases, each tied to camera coverage and a precision target before any model was trained.</li>
+                <li>Chose RF-DETR (Apache-2.0) over YOLO11 (AGPL-3.0) for production after catching a licence conflict with the client's closed edge product.</li>
+                <li>Built a detect, crop and classify (ViT) pattern for compliance checks: glove compliance F1 85% (n=90), uncovered drinks 88% accuracy (n=120). Merged gloves, mask and hairnet into one multi-label model, cutting calls per crop from 3 to 1.</li>
+                <li>Shipped person and vehicle dwell-time analytics with RF-DETR, ByteTrack and polygon zones, and fixed a double-averaging bias in the metric.</li>
+                <li>Traced a sleeves classifier stuck at F1 71% to camera resolution and recommended a hardware fix instead of shipping it.</li>
+                <li>Worked in an edge-to-cloud setup where video never leaves the site: models run on a Jetson Orin box (DeepStream, TensorRT), only events reach the cloud.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="job">
+            <div class="job-when">Jul to Aug 2024</div>
+            <div class="job-body">
+              <h3>Computer Vision &amp; AI Intern</h3>
+              <p class="job-where">Teknovat Solutions, Sousse.</p>
+              <ul>
+                <li>Built real-time football video analysis: player and ball detection with multi-object tracking (YOLOv8, StrongSORT) on broadcast footage.</li>
+                <li>Raised detection from 89% to 91% mAP@0.5 and sped up CUDA inference from 18 to 58 FPS.</li>
+                <li>Served 15+ match metrics (possession, distance, speed zones) through FastAPI and a Streamlit dashboard, and benchmarked ByteTrack against StrongSORT on ID switches, MOTA and FPS.</li>
+              </ul>
+              <a class="repo" href="https://github.com/ghayeth-bhr/Football-Video-Analysis-">Football-Video-Analysis on GitHub</a>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-h">
+      <div class="wrap">
+        <h2 id="projects-h">Projects</h2>
+
+        <article class="feature">
+          <div class="feature-head">
+            <h3>BotFlow</h3>
+            <p class="feature-sub">Describe the dataset you need in a chat; get labeled, reviewed COCO or YOLO data from your raw photos and video.</p>
+          </div>
+          <ol class="pipeline" aria-label="How a BotFlow job runs">
+            <li><strong>Search</strong> SigLIP 2 embeddings find frames from a plain-English query like “taxi”.</li>
+            <li><strong>Plan</strong> A local VLM (Qwen3-VL via Ollama) asks for missing details and writes the SAM 3 prompt.</li>
+            <li><strong>Calibrate</strong> The VLM judges sample masks to pick a confidence threshold before labeling everything.</li>
+            <li><strong>Review</strong> Approve with the keyboard, or fix a mask in one click with SAM 3 refinement.</li>
+            <li><strong>Export</strong> COCO, YOLO detection or YOLO segmentation.</li>
+          </ol>
+          <p class="feature-note">FastAPI modular monolith with leased background jobs and a GPU manager that fits SAM 3 and SigLIP 2 on a 6 GB laptop GPU. 360+ pytest and Playwright tests in CI.</p>
+          <p class="stack">Python, FastAPI, SAM 3, SigLIP 2, Qwen3-VL, PyTorch, SQLite, Playwright</p>
+          <a class="repo" href="https://github.com/ghayeth-bhr/agentic-cv-platform">agentic-cv-platform on GitHub</a>
+        </article>
+
+        <div class="project-list">
+          <article class="project">
+            <h3>Drowsiness Co-Pilot</h3>
+            <p>Real-time driver drowsiness detection from MediaPipe face landmarks (eye and mouth aspect ratios), with spoken LLM alerts. Streaming the LLM and TTS cut alert latency from 3–6 s to under 1.5 s. Ported to a native Android app.</p>
+            <p class="stack">MediaPipe, OpenCV, Kotlin, CameraX, Gradio, OpenRouter</p>
+            <p class="links">
+              <a class="repo" href="https://github.com/ghayeth-bhr/DrownsinessDetection-python-version-">Python version</a>
+              <a class="repo" href="https://github.com/ghayeth-bhr/DrowsinessDetection-Android-App-version-">Android version</a>
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Edge model compression benchmark</h3>
+            <p>RF-DETR and YOLO exported to ONNX and quantized to INT8, measuring COCO mAP against p50 and p95 latency on CPU, CUDA, TensorRT and Jetson.</p>
+            <p class="stack">ONNX, TensorRT, INT8, NVIDIA Jetson</p>
+            <p class="links"><a class="repo" href="https://github.com/ghayeth-bhr/edge-model-compression-benchmark">View repository</a></p>
+          </article>
+
+          <article class="project">
+            <h3>Scene segmentation evaluation</h3>
+            <p>SAM 2 and a lightweight YOLO-seg model compared against bounding-box-only zone logic, scored by mask IoU and agreement on zone decisions.</p>
+            <p class="stack">SAM 2, YOLO-seg, IoU evaluation</p>
+            <p class="links"><a class="repo" href="https://github.com/ghayeth-bhr/scene-segmentation-eval">View repository</a></p>
+          </article>
+
+          <article class="project">
+            <h3>Receipt OCR pipeline</h3>
+            <p>Text detection and recognition (PaddleOCR, Tesseract), line reconstruction and rule-based parsing into structured JSON, with field-level evaluation.</p>
+            <p class="stack">PaddleOCR, Tesseract, Python</p>
+            <p class="links"><a class="repo" href="https://github.com/ghayeth-bhr/receipt-ocr-pipeline">View repository</a></p>
+          </article>
+
+          <article class="project">
+            <h3>QuickFlow</h3>
+            <p>Team project: an LLM assistant that turns meeting audio into structured minutes and drafted emails. I worked across the Spring AI backend and the Whisper and Pyannote voice microservice.</p>
+            <p class="stack">Spring Boot, Spring AI, Ollama, FastAPI, Whisper, React</p>
+            <p class="links"><a class="repo" href="https://github.com/ghayeth-bhr/quickflow">View repository</a></p>
+          </article>
+
+          <article class="project">
+            <h3>Distributed systems simulator</h3>
+            <p>Event-driven order system handling 1,000+ events per second, with saga orchestration, a transactional outbox and idempotent consumers, plus an AI incident analyzer.</p>
+            <p class="stack">FastAPI, Kafka, PostgreSQL, Prometheus, Grafana</p>
+            <p class="links"><a class="repo" href="https://github.com/ghayeth-bhr/Distributed_Systems_Simulator">View repository</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-h">
+      <div class="wrap">
+        <h2 id="skills-h">Skills</h2>
+        <dl class="skills">
+          <div><dt>Detection &amp; segmentation</dt><dd>RF-DETR, YOLOv8, YOLO11, SAM 2, SAM 3, Mask R-CNN, Grounding DINO, ViT fine-tuning</dd></div>
+          <div><dt>Tracking &amp; video</dt><dd>ByteTrack, StrongSORT, NvDCF, re-identification, polygon zones, time-in-zone rules</dd></div>
+          <div><dt>Pose &amp; imaging</dt><dd>Keypoint and pose estimation, MediaPipe, camera calibration, OpenCV, OCR</dd></div>
+          <div><dt>Vision-language</dt><dd>SigLIP 2, CLIP, DINOv2, Qwen3-VL, VLM-as-judge, frame retrieval</dd></div>
+          <div><dt>Edge &amp; real-time</dt><dd>NVIDIA Jetson Orin, TensorRT, DeepStream, CUDA, ONNX, INT8 quantization, on-device Android</dd></div>
+          <div><dt>ML &amp; data</dt><dd>PyTorch, TensorFlow, Hugging Face, scikit-learn, Roboflow, W&amp;B, MLflow, Docker</dd></div>
+          <div><dt>LLM &amp; agents</dt><dd>RAG, LangChain, LangGraph, MCP, structured outputs, Ollama, Whisper</dd></div>
+          <div><dt>Backend &amp; languages</dt><dd>Python, C/C++, Java, Kotlin, TypeScript, FastAPI, Spring Boot, Kafka, PostgreSQL</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="education" aria-labelledby="education-h">
+      <div class="wrap two-col">
+        <div>
+          <h2 id="education-h">Education</h2>
+          <ul class="plain">
+            <li><strong>Engineering degree, Applied Computer Science</strong><br>ENISo, National Engineering School of Sousse. 2024 to 2027.</li>
+            <li><strong>Preparatory classes, Science &amp; Technology</strong><br>IPEIM, Monastir. 2022 to 2024.</li>
+          </ul>
+          <h2 class="h2-follow">Languages</h2>
+          <p>Arabic (native), French (C1), English (B2)</p>
+        </div>
+        <div>
+          <h2>Certifications</h2>
+          <ul class="plain certs">
+            <li>Deep Learning Specialization courses 1–3, DeepLearning.AI</li>
+            <li>Machine Learning Specialization courses 1–2, DeepLearning.AI &amp; Stanford</li>
+            <li>Fundamentals of Deep Learning, NVIDIA DLI</li>
+            <li>Building LLM Applications with Prompt Engineering, NVIDIA DLI</li>
+            <li>Intermediate Deep Learning with PyTorch, DataCamp</li>
+            <li>Image Processing in Python, DataCamp</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-h">
+      <div class="wrap">
+        <h2 id="contact-h">Let's talk about your PFE internship</h2>
+        <p>I'm available from January 2027 for 4 to 6 months, with an internship agreement provided by ENISo. Based in Monastir, Tunisia, open to on-site or remote.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:ghayeth.benhajrhouma@eniso.u-sousse.tn">ghayeth.benhajrhouma@eniso.u-sousse.tn</a>
+          <a class="btn" href="https://www.linkedin.com/in/ben-haj-rhouma-ghayeth">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">Ghayeth Ben Haj Rhouma, 2026. Hand-written HTML and CSS, hosted on GitHub Pages.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
